@@ -14,7 +14,7 @@
         Bucket: "",
         Key: key
     })
-    const url =  await s3Client(command, s3client);
+    const url =  await S3Client(command, s3client);
     return url
  } 
  async function inti ( ) {
